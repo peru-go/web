@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>PERUGO.PE — Tu propio Perú</title>
+<meta name="description" content="Descubre el Perú que quieres vivir. Elige los lugares que te emocionan y diseñamos contigo un viaje privado desde tu llegada al aeropuerto.">
+<meta name="theme-color" content="#1255e8"><link rel="icon" href="llama-andina.png" type="image/png">
+<link rel="stylesheet" href="concepto.css"><link rel="stylesheet" href="andina.css">
+</head>
+<body>
+<a class="skip" href="#descubrir">Ir a descubrir el Perú</a>
+<header id="header">
+<a class="logo" href="#inicio" aria-label="PERUGO.PE, inicio"><span class="brand-lockup"><img class="brand-mascot" src="llama-andina.png" alt=""><span class="brand-word">PERU<b>GO</b><i>.</i>PE</span></span></a>
+<nav aria-label="Navegación principal"><a href="#descubrir">Elige tu Perú</a><a href="#manera">Nuestra manera</a><a href="#tu-viaje">Tu viaje empieza aquí</a></nav>
+<button class="header-list" data-open-list>Mi Perú <span data-count role="status" aria-live="polite">0</span></button>
+<button class="menu" aria-label="Abrir menú" aria-expanded="false" aria-controls="mobile-nav">☰</button>
+</header>
+<nav id="mobile-nav" aria-label="Navegación móvil" hidden><a href="#descubrir">Elige tu Perú</a><a href="#manera">Nuestra manera</a><a href="#tu-viaje">Tu viaje empieza aquí</a></nav>
+<main>
+<section class="hero" id="inicio" aria-label="Tu propio Perú">
+<img class="hero-poster" src="https://www.muchbetteradventures.com/magazine/content/images/2023/10/machu-picchu-2.jpg" alt="Machu Picchu entre las montañas del Perú" fetchpriority="high">
+<iframe id="hero-video" src="https://player.vimeo.com/video/797801183?background=1&amp;autoplay=1&amp;loop=1&amp;muted=1&amp;api=1" title="Viaje por Perú" allow="autoplay; fullscreen" tabindex="-1"></iframe>
+<div class="hero-shade"></div>
+<div class="hero-body">
+<p class="kicker">VIAJES PRIVADOS · HECHOS CONTIGO</p>
+<h1>Hay muchos Perú.<br><span>Encuentra el tuyo.</span></h1>
+<div class="hero-bottom"><p>Un viaje que se parece a ti.</p><button class="pill coral" data-plan>Diseñemos mi viaje ↗</button><a class="hero-whatsapp" href="https://wa.me/51954708174?text=Hola%20PERUGO%2C%20quiero%20dise%C3%B1ar%20mi%20viaje." target="_blank" rel="noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11.5a9 9 0 0 1-13.5 7.8L3 21l1.7-4.5A9 9 0 1 1 21 11.5Z"/><path d="M8 7c0 5 4 9 8 9l1-3-3-1-1 1-3-3 1-1-1-3-2 1Z"/></svg> Hablar por WhatsApp</a></div>
+</div>
+<div class="film-controls"><span>EL PERÚ, EN PRIMERA PERSONA</span><div><button id="sound" aria-label="Activar sonido">Sonido apagado</button><button id="pause" aria-label="Pausar video">Ⅱ</button><button id="watch">Ver película ↗</button></div></div>
+</section>
+
+<div class="textile" aria-hidden="true"></div><section class="discovery pad" id="descubrir">
+<div class="section-index"><span>ELIGE TU PERÚ</span><span>ESTO EMPIEZA CON UN «QUIERO»</span></div>
+<div class="discovery-heading"><h2>¿Y si también <em>fueras aquí?</em></h2><div><p>Guarda los lugares que te llaman. Nosotros conectamos los puntos.</p><span class="small-instruction"><b>＋</b> Toca el signo para añadir un lugar</span></div></div>
+<div class="filters" role="group" aria-label="Filtrar experiencias"><button class="active" data-filter="Todo" aria-pressed="true">Todo el Perú <span>06</span></button><button data-filter="Cultura" aria-pressed="false">Cultura</button><button data-filter="Naturaleza" aria-pressed="false">Naturaleza</button><button data-filter="Aventura" aria-pressed="false">Aventura</button><button data-filter="Sabores" aria-pressed="false">Sabores</button></div>
+<div class="destination-grid" id="destinations"></div>
+<div class="discovery-footer"><p>No hace falta que todo encaje todavía.<br><strong>Para eso estamos nosotros.</strong></p><button class="pill dark" data-open-list>Ver mi Perú <span data-count>0</span> ↗</button></div>
+</section>
+<section class="travel-pair" id="manera">
+<div class="travel-promise"><p class="kicker">MÁS QUE UN VIAJE</p><h2>Tú vives el viaje.<br><em>Nosotros, los detalles.</em></h2><span class="yellow-rule"></span><p>Te esperamos en el aeropuerto<br>con tu nombre.</p><div class="promise-items"><div><span aria-hidden="true">↗</span>Traslados<br>privados</div><div><span aria-hidden="true">◇</span>Experiencias<br>a tu medida</div><div><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M21 11.5a9 9 0 0 1-13.5 7.8L3 21l1.7-4.5A9 9 0 1 1 21 11.5Z"/><path d="M8 7c0 5 4 9 8 9l1-3-3-1-1 1-3-3 1-1-1-3-2 1Z"/></svg>Asesoría local<br>para tu viaje</div></div></div>
+<div class="travel-wishes" id="tu-viaje"><div class="trip-paper"><div class="paper-heading"><h2>Mi Perú</h2><img class="paper-llama" src="llama-andina.png" alt="Tu llama viajera"></div><div id="route-preview"></div><button class="pill coral" data-plan>Dar forma a mi viaje ↗</button><div class="textile" aria-hidden="true"></div></div><p class="signature">Un Perú tan único como tú.</p></div>
+</section>
+<section class="closing pad"><p>Tú eliges los lugares. Nosotros les damos una ruta.</p><a href="#descubrir" class="underlink">Seguir descubriendo ↗</a></section>
+</main>
+<footer class="pad"><div class="footer-top"><p>Un país extraordinario.<br><em>Una forma muy tuya de vivirlo.</em></p><a href="#inicio" class="back-top" aria-label="Volver al inicio">↑</a></div><div class="footer-wordmark" aria-label="PERUGO.PE"><span class="brand-lockup"><img class="brand-mascot" src="llama-andina.png" alt=""><span class="brand-word">PERU<b>GO</b><i>.</i>PE</span></span></div><div class="footer-bottom"><span>LIMA, PERÚ · VIAJES PRIVADOS A MEDIDA</span><button id="credits">Sobre esta propuesta</button><span>© 2026 PERUGO.PE</span></div></footer>
+<button class="floating-list" data-open-list aria-label="Abrir mi lista de lugares"><span class="floating-icon" aria-hidden="true">♡</span>Mi Perú<span data-count>0</span></button>
+<dialog id="list-dialog" class="list-dialog"><div class="dialog-heading"><span>TU LISTA DE DESEOS</span><button data-close aria-label="Cerrar mi lista">✕</button></div><h2>Este podría ser<br><em>tu Perú.</em></h2><p class="muted">Aún no es un itinerario. Es todo lo que te gustaría vivir.</p><div id="wishlist-items"></div><button class="pill coral" data-plan>Dar forma a mi viaje ↗</button><p class="small">Fechas, recorridos y disponibilidad se confirman al diseñar tu viaje.</p></dialog>
+<dialog id="planner-dialog" class="planner-dialog"><div class="dialog-heading"><span class="brand-lockup"><img class="brand-mascot" src="llama-andina.png" alt=""><span class="brand-word">PERU<b>GO</b><i>.</i>PE</span></span><button data-close aria-label="Cerrar planificador">✕</button></div><div class="planner-progress"><span id="step-label"></span><div id="progress-track" role="progressbar" aria-label="Progreso del planificador" aria-valuemin="0" aria-valuemax="5" aria-valuenow="1"><span></span></div></div><form id="planner-form"><div id="step-body"></div><p id="form-error" role="alert"></p><div class="planner-actions"><button type="button" id="previous">← Volver</button><button type="submit" class="pill dark" id="next">Continuar ↗</button></div></form><div id="summary" hidden></div></dialog>
+<dialog id="media-dialog" class="media-dialog"><button data-close class="media-close" aria-label="Cerrar ventana">✕</button><div id="media-content"></div></dialog>
+<script src="concepto.js"></script>
+</body></html>

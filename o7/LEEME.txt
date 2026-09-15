@@ -1,0 +1,60 @@
+PERUGO.PE — Propuesta o7 "ALTURA"
+
+Abrir index.html. Archivos: index.html, style.css, app.js (sin librerías externas).
+
+QUÉ ES
+La propuesta de gama alta: editorial y cinematográfica, pensada para el
+posicionamiento acordado (moderna, seria, confiable, internacional, premium) y
+para la reacción objetivo: "esto se ve profesional y de buen nivel, quiero
+viajar con ellos".
+
+ENFOQUE
+Editorial nocturna: todo el sitio sobre azul de altura, con un verde lima
+ácido como único acento fuerte y lila como apoyo. Serif de alto contraste
+(didone) contra sans geométrica. Elegante pero nada tibio.
+
+PALETA
+  Azul profundo #070C22   fondo general
+  Azul medio    #0E1640   secciones alternas
+  Lima ácido    #C6FF4F   acento principal
+  Lila          #A78BFA   acento secundario
+  Crema fría    #F2F4FF   texto
+Tipografía: Bodoni Moda (títulos) + Inter (texto), ambas de Google Fonts.
+
+RECURSOS DE DISEÑO
+- Preloader con contador y cortina; los titulares del hero entran por línea.
+- Cursor propio que crece sobre elementos interactivos (solo escritorio).
+- Capa de grano sobre toda la página.
+- Marquesina de destinos entre el hero y el manifiesto.
+- Manifiesto que se ilumina palabra por palabra según el scroll.
+- "Capítulos": galería horizontal anclada (sticky) que avanza con el scroll;
+  en móvil se convierte en carrusel con arrastre.
+- Rutas como lista editorial: al pasar el cursor por una fila aparece su
+  fotografía siguiendo el puntero.
+- Parallax suave en la foto de "La promesa".
+- Planificador en tres pasos que termina en un mensaje de WhatsApp armado.
+- Footer con logotipo tipográfico gigante y hora de Lima en vivo.
+
+CONTENIDO
+- El hero usa el mismo video de Vimeo 797801183 de las demás propuestas.
+- La sección "La promesa" está construida sobre la frase real de la clienta:
+  el recojo en aeropuerto frente al "punto de encuentro". Es el diferencial
+  central del negocio.
+- Sin precios: cada ruta se cotiza por conversación.
+- Los testimonios están marcados como ilustrativos.
+
+ACCESIBILIDAD Y RENDIMIENTO
+- Todo el movimiento se apaga con prefers-reduced-motion.
+- Sin dependencias externas de JavaScript; las animaciones usan
+  requestAnimationFrame e IntersectionObserver.
+- Verificado sin errores de consola y sin scroll horizontal a 1440 px y 390 px.
+- Red de seguridad: el preloader desaparece a los 3 s aunque algo falle, y toda
+  foto que no cargue se reemplaza por un fondo generado con el nombre del
+  destino. Nunca se ve un icono de imagen rota ni una pantalla en negro.
+
+PENDIENTE ANTES DE PUBLICAR
+- Confirmar el WhatsApp +51 954 708 174.
+- Reemplazar fotografías de referencia por material propio del cliente.
+- Reemplazar testimonios de muestra por reseñas reales.
+
+Nada se envía a un servidor. Fuentes, fotografías y video requieren internet.

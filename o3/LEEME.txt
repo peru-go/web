@@ -1,0 +1,7 @@
+PERUGO — Propuesta 3
+Nuevo logo vectorial y web con colores coral, turquesa y amarillo solar.
+Abrir index.html. Incluye style.css, viva.css, app.js y perugo-logo.svg.
+Hero: mismo video Vimeo 797801183 de las propuestas anteriores, con reproducción automática, en bucle y silenciado.
+Se mantienen el planificador, las fichas de experiencias, la galería y WhatsApp.
+Los testimonios siguen identificados como muestras. Las imágenes, fuentes y el video requieren Internet.
+Propuesta local; no publicada en el sitio remoto.

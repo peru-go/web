@@ -1,0 +1,13 @@
+PERUGO.PE — Web con identidad andina
+
+Abrir index.html o servir esta carpeta con un servidor web local.
+
+Incluye: hero con el video original de Vimeo 797801183, logo de llama con fondo transparente, filtros de experiencias, selección de lugares, tarjeta Mi Perú, planificador de cinco pasos, resumen descargable y enlace a WhatsApp.
+
+El planificador no envía automáticamente mensajes ni almacena solicitudes en un servidor. La lista y los datos viven en memoria y se reinician al recargar.
+
+Antes de publicar: confirmar WhatsApp +51 954 708 174, derechos de fotografías/video de referencia y experiencias que opera el equipo. Las fuentes, fotografías y Vimeo requieren internet.
+
+Validación: sintaxis JavaScript, selección y precarga de Machu Picchu/Huacachina, flujo completo hasta resumen con fechas flexibles, revisión visual a 390 px y escritorio.
+
+Ilustración de llama obtenida mediante ImageGen a partir de la propuesta aprobada. Motivo textil SVG creado para esta web.

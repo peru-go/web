@@ -1,0 +1,6 @@
+﻿backup*/
+Thumbs.db
+Desktop.ini
+.env
+.env.*
+node_modules/

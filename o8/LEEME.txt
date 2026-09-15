@@ -1,0 +1,26 @@
+PERUGO — Expedición privada
+
+Abrir index.html. Negro #151515, blanco #FFFFFF y rojo volcánico #D83222.
+Diseño editorial, viajes privados, cuidado personal y calidad. ES/EN.
+Original conservado en backup-original/.
+
+Video de referencia de Aracari, servido desde su CDN mediante HLS. Antes de publicar, sustituir por video propio o autorizado. Se usa hls.js desde jsDelivr para navegadores sin HLS nativo. Si no carga, queda la fotografía.
+Fotografías de referencia: sustituir por material autorizado antes de publicar.
+WhatsApp conservado: +51 954 708 174 (confirmar antes de publicar). No se agregaron testimonios, cifras ni sellos.
+El formulario prepara el mensaje; el viajero lo revisa y envía en WhatsApp.
+
+ACTUALIZACIÓN: video MP4 local assets/perugo-hero.mp4 (720p, 56.72 segundos, 21.6 MB). No depende de HLS ni del CDN de video para reproducirse. Orden: hero, experiencias, invitación, valor, protocolo, método, voces y contacto.
+MP4 final optimizado para web: assets/perugo-hero-ready.mp4, índice al inicio (faststart), duración verificada 56.72 s.
+
+LIMA: añadidas Lima colonial, parapente Costa Verde, Lima religiosa, gastronomía y Salto del Fraile. Fotografías locales WebP de referencia; fuentes documentadas en assets/lima/fuentes.json. Los destinos son comunes, las fotografías tienen autoría: verificar autorización de uso comercial antes de publicar. Leyenda contrastada con la Municipalidad de Chorrillos. No se promete representación del salto ni reservas en restaurantes. Parapente sujeto a clima y evaluación del operador.
+Referencias: https://hakutours.com/ y https://www.peru.travel/vivelima/es
+
+Carrusel de 14 experiencias sin precios; filtros, flechas y desplazamiento táctil. Seleccionar destino prepara la idea de viaje. Cuidado en tres temas interactivos y método breve. Formulario: nombre, contacto e idea. Fotografías de referencia, no clientes de PERUGO.
+
+RELATOS: carrusel con perspectiva 3D, regiones y momentos. Ritmo Sin prisa/Más experiencias. Cusco se presenta como varias jornadas, Siete Colores aparte con aclimatación. Paracas requiere comienzo temprano o noche previa; camellos opcionales sujetos a disponibilidad. La selección prepara una propuesta personalizada sin enviar datos. Imágenes de referencia, fuentes en assets/relatos/fuentes.json.
+
+MARCA / SEO: isotipo vectorial de ruta-P con punto rojo, logos en assets/marca. 10 páginas internas reales ES/EN, canonicals y sitemap para https://perugo.pe/ (publicar o8 como raíz o ajustar estas URLs). Metadatos Open Graph, breadcrumbs y FAQ estructurados, sin precios ni reseñas inventadas. WhatsApp como único contacto visible; formulario de nombre e idea. Wi-Fi comunicado sujeto a cobertura local. Backup: backup-antes-marca-seo. Importación de redes pendiente de URL pública exacta del canal de Miraflores Remisse Travel. No material propio extraído todavía.
+
+VIDEO AEROPUERTO: enlace visual al video oficial de LAP KCYRbOU2tvc (2026), con miniatura local. Se abre en YouTube: el reproductor embebido no cargó en la vista de verificación. No se presenta como video de recepción propio.
+
+VIDEO / MENÚ: reproductor YouTube dentro de la sección, con autoplay al pulsar y reproducción inline. No abre otra pestaña. Menú Destinos en portada y páginas internas da acceso a las 10 páginas.

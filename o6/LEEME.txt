@@ -1,0 +1,51 @@
+PERUGO.PE — Propuesta o6 "ARCILLA"
+
+Abrir index.html. Archivos: index.html, style.css, app.js (sin librerías externas).
+
+QUÉ ES
+Adaptación al Perú y a PERUGO del layout de referencia que entregó el cliente
+(plantilla de agencia de viajes: header con CTA amarillo, hero con buscador
+superpuesto, franja de confianza, destinos, banda oscura con polaroids, rutas,
+inspiración, blog, testimonios, newsletter y footer oscuro con bordes curvos).
+
+Hero: mismo video de Vimeo 797801183 de las propuestas o1 a o5, en bucle,
+silenciado y con controles de sonido/pausa.
+
+ENFOQUE
+Se conserva la planta de la referencia, pero cambia la casa entera: fuera el
+neón, las mayúsculas gritadas y las sombras duras. Entra hueso cálido, tinta
+café, serif editorial, líneas finas, mucho aire y un solo acento de arcilla
+peruana. Las fotografías llevan un tono cálido uniforme y recuperan su color
+al pasar el cursor.
+
+PALETA
+  Hueso       #F3EEE6   fondo
+  Hueso 2     #E9E1D5   superficies y banda de testimonios
+  Tinta café  #241E1A   bandas oscuras, footer
+  Arcilla     #9B4A2F   acento único: botones, enlaces, detalles
+  Gris cálido #7A6F64   texto secundario
+Tipografía: Fraunces (titulares) + Karla (texto), Google Fonts.
+
+DECISIONES APLICADAS
+- Sin precios en pantalla. Donde la referencia mostraba "$899 / persona", aquí
+  dice "Cotizar esta ruta" y abre WhatsApp con el nombre de la ruta.
+- Sin cifras inventadas. La referencia traía "100+ destinos / 50K+ viajeros /
+  4.9 rating"; se reemplazó por afirmaciones verificables (5 años operando,
+  atención 1 a 1, recojo en aeropuerto, ruta a medida).
+- El buscador de vuelos/hoteles de la referencia se convirtió en un
+  planificador rápido: destino, fechas, viajeros → mensaje de WhatsApp.
+- Testimonios y artículos están marcados como contenido de muestra.
+- Toda foto que no cargue se reemplaza automáticamente por un fondo generado
+  con el nombre del destino y el aviso "fotografía pendiente del cliente".
+  Nunca se ve un icono de imagen rota.
+- El botón principal de la portada dice "Diseñemos tu viaje" y lleva al
+  planificador. No "explorar destinos": ese es el botón de una web de volumen.
+- Dos objetivos de conversión: WhatsApp y el formulario de planificación.
+
+PENDIENTE ANTES DE PUBLICAR
+- Confirmar el WhatsApp +51 954 708 174 (el número quedó incompleto en las notas).
+- Reemplazar fotografías de referencia por material propio del cliente.
+- Reemplazar testimonios y artículos de muestra por reseñas reales.
+
+Nada se envía a un servidor: los formularios solo arman el mensaje de WhatsApp.
+Fuentes, fotografías y video requieren conexión a internet.
