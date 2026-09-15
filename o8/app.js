@@ -308,16 +308,30 @@ $('#care-tabs').addEventListener('click',e=>{const b=e.target.closest('[data-car
    ------------------------------------------------------------ */
 const video = $('#hero-video'), toggle = $('#video-toggle');
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
+const connection = navigator.connection;
+const conserveData = connection && (connection.saveData || /(^|-)2g$/.test(connection.effectiveType));
 function videoLabel(){ toggle.textContent = lang === 'es' ? (video.paused ? 'Reproducir video' : 'Pausar video') : (video.paused ? 'Play video' : 'Pause video'); toggle.setAttribute('aria-pressed', String(video.paused)); }
+function loadHero(){
+ if(!video.getAttribute('src')){
+  video.src=(innerWidth<=800 || (connection && connection.effectiveType==='3g')) ? video.dataset.mobileSrc : video.dataset.src;
+  video.load();
+ }
+}
 video.addEventListener('playing', () => { video.classList.add('on'); toggle.disabled = false; videoLabel(); });
 video.addEventListener('pause', videoLabel);
-toggle.addEventListener('click', () => { if(video.paused) video.play().catch(()=>{}); else video.pause(); });
+toggle.addEventListener('click', () => { if(video.paused){loadHero();video.play().catch(()=>{});} else video.pause(); });
+let started=false;
 function startVideo(){
- if(!reducedMotion.matches) video.play().catch(()=>{});
+ if(started || reducedMotion.matches || conserveData)return;
+ started=true;loadHero();video.play().catch(()=>{});
 }
-video.addEventListener('error', () => {video.classList.remove('on');toggle.disabled=true;});
-reducedMotion.addEventListener('change', () => { if(reducedMotion.matches) video.pause(); });
-startVideo();
+video.addEventListener('error', () => {video.classList.remove('on');videoLabel();});
+reducedMotion.addEventListener('change', () => { if(reducedMotion.matches) video.pause(); else startVideo(); });
+const heroPhoto=$('.hero-media img');
+if(heroPhoto.complete) requestAnimationFrame(startVideo);
+else heroPhoto.addEventListener('load',startVideo,{once:true});
+setTimeout(startVideo,1500);
+videoLabel();
 $$('.lang button').forEach(b => b.addEventListener('click', videoLabel));
 
 addEventListener('load', () => document.body.classList.add('ready'));
