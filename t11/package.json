@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite --host 127.0.0.1",
-    "build": "tsc -b && vite build && vite build --ssr src/entry-server.tsx --outDir .sites-runtime/ssr && node scripts/prerender.mjs"
+    "build": "tsc -b && vite build && vite build --ssr src/entry-server.tsx --outDir .sites-runtime/ssr && node scripts/prerender.mjs && node scripts/export-portable.mjs"
   },
   "dependencies": {
     "react": "^19.1.0",

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tactica11-futbol.phillyps-bravo-proni.chatgpt.site/sitemap.xml
